@@ -20,4 +20,6 @@ def cat_matrices2D(mat1, mat2, axis=0):
         result = []
         for i in range(len(mat1)):
             result.append(mat1[i] + mat2[i])
-    return result
+        return result
+    else:
+        return None
