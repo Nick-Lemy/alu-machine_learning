@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-
-from matplotlib.pylab import shape
-
-
 if __name__ == "__main__":
     def matrix_shape(matrix):
         shape = []
